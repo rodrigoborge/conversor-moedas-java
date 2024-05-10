@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class ConversorMoedas {
     public static void main(String[] args) {
         ValueConsultation novaConsulta = new ValueConsultation();
         Scanner scanner = new Scanner(System.in);
