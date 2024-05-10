@@ -11,20 +11,51 @@
 
 ![Java](img/capa-repositorio.png)<br><br><br>
 
-Este repositório contém a minha solução para o desafio do Conversor de Moedas, parte do programa ONE da Oracle em parceria com a Alura. Neste desafio, experimentei diretamente o papel de um desenvolvedor back-end, solucionando problemas com Java e orientação a objetos através de uma API.
+Este é um Conversor de Moedas desenvolvido em Java, que oferece uma interação textual via console com os usuários. Ele proporciona no mínimo 6 opções distintas de conversões de moedas em um menu intuitivo e fácil de usar.
 
-## Sobre o Desafio
+## Funcionalidades
 
-O desafio do Conversor de Moedas foi uma parte essencial do programa ONE. Nele, tive a oportunidade de aplicar conceitos importantes de Java, como consumo de API, herança, polimorfismo, entre outros.
+- Conversão entre diferentes moedas, incluindo:
+  - Dólar americano (USD)
+  - Euro (EUR)
+  - Libra esterlina (GBP)
+  - Real brasileiro (BRL)
+  - Yen japonês (JPY)
+  - Franco suíço (CHF)
+- Taxas de conversão dinâmicas obtidas por meio de uma API.
+- Experiência em tempo real para garantir dados precisos e atualizados.
+
+## Como usar
+
+1. Clone este repositório em sua máquina local:
+```
+git clone https://github.com/rodrigoborge/conversor-moedas-java.git
+```
+2. Navegue até o diretório do projeto:
+```
+cd conversor-moedas-java
+```
+3. Compile o código fonte:
+```
+javac ConversorMoedas.java
+```
+4. Execute o programa:
+```
+java ConversorMoedas
+```
+
+5. Siga as instruções exibidas no console para realizar as conversões desejadas.
+
+## Autor
+
+Este Conversor de Moedas em Java foi desenvolvido por [Rodrigo Borge](https://github.com/rodrigoborge).
 
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar sugestões, correções de bugs ou melhorias através de issues e pull requests.
 
-## Autor
-
-Este repositório é mantido por [Rodrigo Borge](https://github.com/rodrigoborge).
-
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+
