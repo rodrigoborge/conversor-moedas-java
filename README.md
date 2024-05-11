@@ -15,6 +15,8 @@
 
 Este é um simples programa em Java que permite converter valores de Real brasileiro (BRL) para outras moedas, como Dólar americano (USD), Euro (EUR), Libra esterlina (GBP), Iene japonês (JPY) e Franco suíço (CHF). O programa usa a API de taxas de câmbio para obter as taxas de conversão em tempo real.
 
+![Exemplo Conversor](img/conversor-exemplo.png)
+
 ## Funcionalidades
 
 - Escolha a moeda de destino para conversão: USD, EUR, GBP, JPY ou CHF.
