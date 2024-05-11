@@ -23,6 +23,15 @@ Este é um simples programa em Java que permite converter valores de Real brasil
 - Insira o valor em Real brasileiro que deseja converter.
 - Veja o valor convertido na moeda de destino.
 
+## Badge
+Este é um badge conquistado por ter desenvolvido este projeto com a Alura em parceria da Oracle para o programa One "Oracle Next Education":
+
+<div align="center">
+
+![Badge](img/Badge-Conversor.png)
+
+</div>
+
 ## Como usar
 
 1. Clone este repositório em sua máquina local:
@@ -47,6 +56,7 @@ java ConversorMoedas
 ## Autor
 
 Este Conversor de Moedas em Java foi desenvolvido por [Rodrigo Borge](https://github.com/rodrigoborge).
+
 
 ## Contribuição
 
