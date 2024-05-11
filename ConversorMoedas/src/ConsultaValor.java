@@ -1,4 +1,3 @@
-import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -9,11 +8,11 @@ import java.net.http.HttpResponse;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ValueConsultation {
+public class ConsultaValor {
 
-    public ExchangeRateApi consultaValor(String cod) throws RuntimeException {
+    public ExchangeRateApi consultaValor(String codigoMoeda) throws RuntimeException {
         URI valorConsultado =
-                URI.create("https://v6.exchangerate-api.com/v6/45592de414b9171022b43939/latest/" + cod);
+                URI.create("https://v6.exchangerate-api.com/v6/45592de414b9171022b43939/latest/" + codigoMoeda);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(valorConsultado)
