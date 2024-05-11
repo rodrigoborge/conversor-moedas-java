@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ConversorMoedas {
     public static void main(String[] args) {
-        ValueConsultation novaConsulta = new ValueConsultation();
+        ConsultaValor novaConsulta = new ConsultaValor();
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
@@ -44,7 +44,7 @@ public class ConversorMoedas {
         }
     }
 
-    private static void realizarConversao(ValueConsultation consulta, String moedaDestino) {
+    private static void realizarConversao(ConsultaValor consulta, String moedaDestino) {
         ExchangeRateApi consultaMoeda = consulta.consultaValor("BRL");
 
         if (consultaMoeda != null && consultaMoeda.conversionRates() != null) {
