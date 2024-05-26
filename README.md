@@ -55,7 +55,7 @@ java ConversorMoedas
 
 ## Autor
 
-Este Conversor de Moedas em Java foi desenvolvido por [Rodrigo Borge](https://github.com/rodrigoborge).
+Este Conversor de Moedas em Java foi desenvolvido por [Rodrigo Borge](https://github.com/rodrigoborge)
 
 
 ## Contribuição
@@ -64,6 +64,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar sugestões, cor
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE)
 
 
